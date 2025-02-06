@@ -36,17 +36,17 @@ const App = () => {
         <h2>Our Offerings</h2>
         <div className="grid">
           <div className="card">
-            <img src="/Charging.jpg" alt="Charging Infrastructure" className="offerings-img"/>
+            <img src="public/Charging.jpg" alt="Charging Infrastructure" className="offerings-img"/>
             <h3>Charging Infra</h3>
             <p>EV charging stations.</p>
           </div>
           <div className="card">
-            <img src="/Mobility.png" alt="Smart Mobility" className="offerings-img"/>
+            <img src="public/Mobility.png" alt="Smart Mobility" className="offerings-img"/>
             <h3>Smart Mobility</h3>
             <p>Optimized delivery routes.</p>
           </div>
           <div className="card">
-            <img src="/warehouse.png" alt="Warehouse Solutions" className="offerings-img"/>
+            <img src="public/warehouse.png" alt="Warehouse Solutions" className="offerings-img"/>
             <h3>Warehouse Solutions</h3>
             <p>Storage & dispatch services.</p>
           </div>
