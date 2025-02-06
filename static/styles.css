@@ -10,17 +10,15 @@ nav {
     display: flex;
     align-items: center;  /* Align logo and menu vertically */
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 5px 20px;  /* Reduce padding to decrease height */
     background: #c04732;
-    height: 60px;  /* Adjust navbar height */
+    height: auto;  /* Auto-adjust to text height */
 }
 
 nav .logo img {
-    height: 100%;  /* Make the logo fill the navbar height */
-    max-height: 60px; /* Ensures it doesn't overflow */
+    height: 40px;  /* Adjust logo height to match text size */
     width: auto;  /* Maintain aspect ratio */
 }
-
 
 nav ul {
     list-style: none;
