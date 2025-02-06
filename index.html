@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RevGo - Last-mile delivery with EV fleet solutions for e-commerce and logistics companies.">
+    <title>RevGo - Sustainable Last-Mile Delivery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo"><img src="{{ url_for('static', filename='logo.png') }}" alt="RevGo Logo"></div>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#offerings">Offerings</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Powering Sustainable Last-Mile Logistics</h1>
+        <p>Electric vehicle-based delivery solutions for seamless e-commerce logistics.</p>
+        <button onclick="scrollToForm()">Request Quote</button>
+        <button onclick="scrollToContact()">Contact Us</button>
+    </header>
+
+    <!-- About Us -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are logistics pioneers with expertise in supply chain optimization, warehousing, and EV-based delivery.</p>
+    </section>
+
+    <!-- Offerings -->
+    <section id="offerings">
+        <h2>Our Offerings</h2>
+        <div>
+            <h3>Charging Infrastructure</h3>
+            <p>We provide dedicated EV charging stations to keep deliveries running efficiently.</p>
+        </div>
+        <div>
+            <h3>Smart Mobility</h3>
+            <p>Optimized delivery routes for sustainable and efficient logistics.</p>
+        </div>
+        <div>
+            <h3>Warehouse Solutions</h3>
+            <p>On-demand storage and dispatch services tailored for businesses.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="text" id="contact" placeholder="Contact Number" required>
+            <input type="text" id="company" placeholder="Company Name" required>
+            <select id="vehicleType">
+                <option value="2 Wheeler">2 Wheeler</option>
+                <option value="3 Wheeler">3 Wheeler</option>
+                <option value="4 Wheeler">4 Wheeler</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
