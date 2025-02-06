@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('/public/carousel-1.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.offerings-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
